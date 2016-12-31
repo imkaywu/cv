@@ -1,28 +1,35 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://imkaywu.github.io/cv
+author: Fábio Madeira
 
-title: My Resume
-url: 'http://imkaywu.github.io'
-baseurl: '/cv' #change it according to your repository name
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /cv/
+title: Kai Wu's Resume
+name: Chris Turner
+email: christurner@me.com
+email_full: mailto:youremail@me.com
+website: github.io/sustain
+website_full: https://biomadeira.github.io/sustain
+github: trending
+twitter: twitter
+tel: +44 0000 000000
+tel_full: tel:+440000000000
+google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+address: 44 Perth Street
+postcode: EH3 5BL
+city: Edinburgh
+country: United Kingdom
+google_analytics: UA-69300817-1
 
-
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-#style: styles-6
-
-
-#Profile information
-name: Kai Wu
-tagline: Full Stack Developer
-pic: bio-photo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-#sidebar links
-email: kaywu@ece.ubc.com
-phone: 604 716 1058
-website: imkaywu.github.io #do not add http://
-# linkedin: 
-github: imkaywu
-twitter: '@_BlacKay_'
-
-#Update all the sections by editing the files inside _includes folder.
+# needed for travis-ci build
+exclude: [vendor]
