@@ -2,11 +2,11 @@
 
 body {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 5px solid #1E90FF;
-    border-bottom: 5px solid #1E90FF;
+    border-top: 5px solid #27a822;
+    border-bottom: 5px solid #27A822;
 }
 
 .container {
@@ -15,17 +15,15 @@ body {
 
 a {
     text-decoration: none;
-    /*color: #1E90FF;*/
-    background-color: rgba(240, 255, 255, 0.5);
+    /*background-color: rgba(39, 168, 34, 0.06);*/
 }
 
 a:visited {
     text-decoration: none;
-    /*color: 0;*/
 }
 
 a:hover, a:focus {
-    color: #1E90FF;
+    color: #27A822;
 }
 
 p, address {
@@ -42,7 +40,7 @@ p, address {
 }
 
 header > h1, section > h1 {
-    color: #1E90FF;
+    color: #27A822;
 }
 
 header > h1 {
